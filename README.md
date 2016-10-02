@@ -1,9 +1,68 @@
-# C64_Very_Basic_3
+# C64_Very_Basic
+_3
 
-10 ? chr$(147)
+10 printchr$(147)
 20 ag=20
-30 ifag<21 then ? "YOU MUST SHOW YOUR ID BEFORE ENTERING THE BAR":goto 60
+25 print"Y"
+30 ifag<21 then print "you must show you
+r id before entering the bar":goto 60
 40 ag=ag+1
-50 ifag=21then?"YOU MAY ENTER THE BAR NOW":goto 70
-60 ?"YOU ARE NOT OLD ENOUGH TO ENTER THE BAR.":end
-70 ? "YOU ARE GOING TO CELEBRATE YOUR 21ST BIRTHDAY AT THE BAR TODAY."
+50 ifag=21thenprint"you may enter the ba
+r now":goto70
+60 print"you are not old enough to enter
+ the bar.":end
+70 print"you are going to celebrate your
+ 21st birthday at the bar today."
+80 ag=ag+10
+90 print
+100 ifag>30thenprint"in ten years you wi
+ll have celebrated 10 years at the bar."
+
+110 print
+120 print"you will be "ag" years old."
+ready.
+105 ifag>=40 then ? "lordy lordy he is f
+ourty!"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@ C64_Very_Basic_2
